@@ -1,0 +1,20 @@
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
+
+export const ROLES = {
+  ADMIN: 'ROLE_ADMIN',
+  EMPLOYEE: 'ROLE_EMPLOYEE',
+  CUSTOMER: 'ROLE_CUSTOMER',
+};
+
+export const ACCOUNT_STATUS = {
+  ACTIVE: 'ACTIVE',
+  INACTIVE: 'INACTIVE',
+  FROZEN: 'FROZEN',
+  CLOSED: 'CLOSED',
+};
+
+export const TRANSACTION_TYPES = {
+  DEPOSIT: 'DEPOSIT',
+  WITHDRAWAL: 'WITHDRAWAL',
+  TRANSFER: 'TRANSFER',
+};
